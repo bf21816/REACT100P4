@@ -9,12 +9,12 @@ import { getFirestore } from "firebase/firestore";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "",
-  authDomain: "vstda-dfcef.firebaseapp.com",
-  projectId: "vstda-dfcef",
-  storageBucket: "vstda-dfcef.firebasestorage.app",
-  messagingSenderId: "403080242938",
-  appId: "1:403080242938:web:61b58081600bb040ef4b43",
-  measurementId: "G-W23NE63G55" // Required for Analytics
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: "" // Required for Analytics
 };
 
 // Initialize Firebase
