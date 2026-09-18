@@ -1,9 +1,7 @@
 import './App.css'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import TodoForm from './components/TodoForm.jsx'
 import TodoList from './components/TodoList.jsx'
-import { collection, addDoc, deleteDoc, doc, updateDoc, onSnapshot } from 'firebase/firestore'
-import { db } from '../lib/firebase.ts'
 
 function App() {
   const [todos, setTodos] = useState([]);
