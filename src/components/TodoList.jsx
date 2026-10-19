@@ -2,7 +2,7 @@ import TodoItem from './TodoItem';
 
 function TodoList({ todos, editTodo, deleteTodo, saveTodo, sortTodo}) {
   return (
-    <div className="col-8">
+    <div className="col-sm-8">
       <div className="d-flex justify-content-between align-items-center p-3 border text-bg-light rounded-top">
         View Todos
         {todos.length >= 2 && (<button className="py-0 btn btn-success" onClick={()=>sortTodo()}>Sort</button>)}

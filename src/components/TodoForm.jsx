@@ -1,6 +1,6 @@
 function TodoForm({ addTodo }) {
   return (
-    <form className="col-4" action={addTodo}>
+    <form className="col-sm-4" action={addTodo}>
       <div className="p-3 border text-bg-light rounded-top">Add New Todo</div>
       <div className="p-3 border-start border-end ">
         <label className="fw-bold" htmlFor="todo">I want to ...</label>
